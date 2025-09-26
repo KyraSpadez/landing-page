@@ -1,0 +1,106 @@
+.header{
+    background-color:rgb(87, 171, 122);
+    font-family:'Courier New', Courier, monospace;
+    display:flex;
+    align-items:center;
+    gap:1000px;
+    text-decoration:none;
+}
+
+.headertext{
+    font-weight:800;
+    font-size:30px;
+    display:flex;
+    justify-content:flex-start;
+    margin-left:10px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    border:2px solid black;
+    padding:10px;
+}
+
+
+.top{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(252, 239, 184);
+}
+
+.name{
+    font-weight:800;
+    font-size:30px;
+}
+
+.header_image{
+    margin-top:5px;
+    
+}
+.servicestext{
+     font-family:'Courier New', Courier, monospace;
+    background-color:rgb(87, 171, 122);
+    font-weight:800;
+    font-size:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.services{
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(87, 171, 122);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-around;
+    padding:10px;
+}
+
+.square{
+    height:300px;
+    width:300px;
+    border:2px solid black;
+}
+
+.event{
+    display:flex;
+    justify-content:center;
+}
+
+.testimonial{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(252, 239, 184);
+    margin-top:10px;
+    margin-bottom:10px;
+    flex-direction:column;
+}
+
+.signage{
+    font-weight:800;
+    margin-left:500px;
+}
+
+.bookings{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Courier New', Courier, monospace;
+    gap:30px;
+    background-color: rgb(87, 171, 122);
+    margin-left:500px;
+    margin-right:500px;
+}
+
+button{
+    border:2px solid black;
+    padding:10px;
+}
